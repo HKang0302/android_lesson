@@ -7,8 +7,8 @@
         android:id="@+id/center"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#EC1919"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:background="#EC1919" />
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
