@@ -7,3 +7,11 @@
 
 - Life Cycle 존재 => Activity 종속적
     * Activity의 life cycle 뿐만 아니라 fragment의 life cycle도 따로 관리해야함
+
+사용 방법
+- xml에 ViewComponent로 추가한다
+- 코드에 동적으로 추가한다
+
+데이터 전달 방법
+- Activity -> Fragment: argument와 bundle 사용
+- Fragment -> Activity: 자체 구현 필요 (리스너 구현)
