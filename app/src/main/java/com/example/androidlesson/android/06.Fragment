@@ -1,0 +1,9 @@
+06. Fragment
+- 하나의 Activity의 구성요소가 많을 경우 관리해야하는 요소가 많아짐 (e.g. Scrolling down page) => 관리가 어려움
+- 안드로이드 디바이스가 매우 다양함 (모바일, 태블릿 등)
+
+사용처
+- activity의 부분을 나누어서 책임짐
+
+- Life Cycle 존재 => Activity 종속적
+    * Activity의 life cycle 뿐만 아니라 fragment의 life cycle도 따로 관리해야함
