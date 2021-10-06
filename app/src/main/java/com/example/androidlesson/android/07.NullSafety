@@ -1,0 +1,21 @@
+07. Null Safety
+- Null에 대해서 안전하다 (Kotlin 특징)
+
+Null처리
+- Null 처리 안될 경우: NullPointExceptionError 발생
+- e.g.)
+    if(button != null){
+        button.setOnclickListner{
+            ...
+        }
+    }
+
+Null Safety 방식
+- ?: Null이 아니라면 실행
+    * button?.setOnClickListener{...}
+- !!: Null이 무조건 아님을 보장할 때 (최대한 사용하지 않는 것이 좋음)
+    * button!!.setOnClickListener{...}
+
+Null이 될 수 있는 타입
+* Int, Double, Float, Class: Null이 될 수 없는 타입
+* Int?, Double?, Float?, Class?: Null이 될 수 있는 타입
